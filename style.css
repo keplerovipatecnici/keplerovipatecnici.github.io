@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(rgb(25,25,0,0.7),rgba(0,0,0,0.4)), url('figures/background_picture_earth_sun3.jpg');
+    background-size:  100% auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 5px 0;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    text-align: center;
+    width: 120vb;
+}
+
+.container h1, .container h4, .container h6 {
+    color: white;
+}
+
+.container h1 {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.container h4 {
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.container h6 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#changingText.fade-out {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+  }
+
+#changingText.fade-in {
+    opacity: 1;
+    transition: opacity 1.5s ease; /* Slower transition */
+  }
+
+#textParagraph {
+    font-style: italic;
+    margin-bottom: 50px;
+  }
+
+li {
+    color: white;
+}

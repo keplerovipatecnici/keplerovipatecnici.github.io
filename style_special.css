@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(rgb(5,5,0,0.7),rgba(0,0,0,0.7)), url('figures/background_picture_earth_sun3.jpg');
+    background-size:  100% auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h4 {
+    text-align: left;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
