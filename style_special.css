@@ -1,5 +1,10 @@
+html{
+    background-image: black;
+}
+
 body {
-    background-image: linear-gradient(rgb(5,5,0,0.7),rgba(0,0,0,0.7)), url('figures/background_picture_earth_sun3.jpg');
+    background-color: black;
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)), url('figures/wallpaperflare.com_wallpaper.jpg');
     background-size:  100% auto;
     display: flex;
     flex-direction: column;
@@ -14,3 +19,29 @@ p {
     color: white;
     text-align: justify;
 }
+
+
+.gjsb_pic {
+    width: 75%;
+    margin: 15px;
+}
+
+.image_me {
+    width: 250px;
+    margin: 10px;
+}
+
+button {
+    width: 75px;
+    font-size: 15px;
+}
+
+h5 {
+    color: white;
+    text-align: left;
+}
+
+#footer-paragraph {
+    color: black; /* Apply a specific style to the paragraph */
+    text-align: center;
+  }

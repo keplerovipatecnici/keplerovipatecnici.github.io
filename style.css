@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-size: cover;
 }
 
 footer {
@@ -57,3 +58,51 @@ footer {
 li {
     color: white;
 }
+
+button{
+    margin-bottom: 20px;
+}
+
+li {
+    text-align: left; /* This will align the text to the left within the li element */
+}
+
+.section {
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+}
+
+figcaption{
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+
+.lecture-buttons {
+    display: flex; /* Display buttons in a row */
+    flex-wrap: wrap;
+    gap: 10px; /* Add spacing between buttons */
+  }
+
+  .lecture-button {
+    background-color: #0074d9;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    flex: 1;
+  }
+
+  .lecture-button:hover {
+    background-color: #ff4136;
+  }
+
+  .lecture-content {
+    margin-top: 20px; /* Add spacing between buttons and content */
+    display: none; /* Hide all content by default */
+  }
+
+  .active {
+    display: block; /* Show the active content */
+  }
