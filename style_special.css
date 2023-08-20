@@ -23,11 +23,10 @@ p {
 
 .gjsb_pic {
     width: 95%;
-    padding-right: 5%;
     margin-bottom: 15px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 15px;
+    margin-left: 2px;
+    margin-right: 35px;
+    border-radius: 35px;
 }
 
 .image_me {
