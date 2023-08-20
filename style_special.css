@@ -4,7 +4,7 @@ html{
 
 body {
     background-color: black;
-    background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)), url('figures/wallpaperflare.com_wallpaper.jpg');
+    background-image: linear-gradient(rgb(0,0,0,0.6),rgba(0,0,0,0.6)), url('figures/multicolored-nebula.jpg');
     background-size:  100% auto;
     display: flex;
     flex-direction: column;
@@ -22,8 +22,12 @@ p {
 
 
 .gjsb_pic {
-    width: 75%;
-    margin: 15px;
+    width: 95%;
+    padding-right: 5%;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
 }
 
 .image_me {
