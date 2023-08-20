@@ -185,33 +185,29 @@
                   <figcaption>
                     Pavel Kůs
                   </figcaption>
-                </div>
-
-
-
-            <script>
-              const lectureButtons = document.querySelectorAll('.lecture-button');
-              const contentAreas = document.querySelectorAll('.lecture-content');
-            
-              lectureButtons.forEach((button, index) => {
-                button.addEventListener('click', () => {
-                  contentAreas.forEach(content => {
-                    content.classList.remove('active');
-                  });
-                  contentAreas[index].classList.add('active');
-                });
-              });
-            </script>
-
-      
+            </div>      
+          </div>
+        </div>
 
       <footer class="mt-auto">
         <div class="container">
             <p id="footer-paragraph">© 2023 Pavel Kůs. All rights reserved.</p>
         </div>
       </footer>
-
-
-
   </body>
 </html>
+
+<script>
+  const lectureButtons = document.querySelectorAll('.lecture-button');
+  const contentAreas = document.querySelectorAll('.lecture-content');
+
+  lectureButtons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      contentAreas.forEach(content => {
+        content.classList.remove('active');
+      });
+      contentAreas[index].classList.add('active');
+    });
+  });
+</script>
+
