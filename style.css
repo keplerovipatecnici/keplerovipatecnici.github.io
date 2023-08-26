@@ -8,8 +8,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 footer {
@@ -44,6 +42,11 @@ footer {
 
 .container h4 {
   margin-top: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.container h5 {
   font-weight: bold;
   color: white;
 }
