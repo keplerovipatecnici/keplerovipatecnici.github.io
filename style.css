@@ -4,40 +4,52 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vh;
     background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #111;
     padding: 5px 0;
-    text-align: center;
-    color: black;
+    text-align: right;
+    color: whitesmoke;
+    flex-shrink: 0; /* Prevent footer from shrinking */
+    width: 100%; /* Extend footer to 100% width */
 }
 
 .container{
     text-align: center;
-    width: 120vb;
+    flex: 1;
+    max-width: 130vh;
 }
 
-.container h1, .container h4, .container h6 {
-    color: white;
+.footer_paragraph{
+  text-align: center;
+  color: #666;
+  width: 100%;
 }
+
 
 .container h1 {
     margin-top: 80px;
     font-weight: bold;
     font-size: 50px;
+    color: white;
 }
 
 .container h4 {
-    margin-top: 40px;
-    font-weight: bold;
+  margin-top: 50px;
+  font-weight: bold;
+  color: white;
 }
 
 .container h6 {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 70px;
     font-weight: bold;
+    color: white;
 }
 
 #changingText.fade-out {
@@ -52,7 +64,8 @@ footer {
 
 #textParagraph {
     font-style: italic;
-    margin-bottom: 50px;
+    font-size: large;
+    margin-bottom: 30px;
   }
 
 li {
@@ -69,13 +82,15 @@ li {
 
 .section {
     background-color: rgba(0,0,0,0.6);
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
     margin: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif; /* Example font */
 }
 
 figcaption{
@@ -112,3 +127,57 @@ figcaption{
   .active {
     display: block; /* Show the active content */
   }
+
+  
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Rest of the CSS, including media queries if needed */
+
+.navmen {
+  list-style: none;
+  margin: 0;
+  margin-bottom: -10px;
+  padding: 0;
+  overflow: hidden;
+  color: rgb(169, 173, 174);
+  font-size: large;
+}
+
+.navmen li {
+  float: left;
+}
+
+.navmen li a {
+  display: block;
+  padding-left: 10px;
+  padding-right: 25px;
+  margin: 0;
+}

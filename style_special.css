@@ -26,7 +26,7 @@ p {
 
 
 .gjsb_pic {
-    width: 95%;
+    width: 80%;
     margin-bottom: 15px;
     margin-left: 2px;
     margin-right: 35px;
@@ -48,7 +48,28 @@ h5 {
     text-align: left;
 }
 
-#footer-paragraph {
-    color: black; /* Apply a specific style to the paragraph */
-    text-align: center;
-  }
+  .navbar {
+    background-color: #333;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Align links horizontally */
+    padding: 10px;
+}
+
+.navbar-list li {
+    margin: 0 10px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
