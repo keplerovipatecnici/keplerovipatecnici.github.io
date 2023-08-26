@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    margin: 0;
 }
 
 footer {
@@ -186,4 +187,34 @@ figcaption{
   padding-left: 10px;
   padding-right: 25px;
   margin: 0;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  transition-duration: 0.4s;
+}
+
+.navbar-toggler:hover {
+  background-color: #1d3488; /* Green */
+  color: white;
+}
+
+.bt{
+  transition-duration: 0.4s;
+}
+
+.bt:hover {
+  color: rgb(9, 12, 74);
+}
+
+.channels{
+  height: 50px;
+  margin: 10px;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
